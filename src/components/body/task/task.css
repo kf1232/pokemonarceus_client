@@ -11,3 +11,7 @@ button:focus{
 button:active{
     background-color:green
 }
+
+.taskCounter{
+    width: 100%
+}

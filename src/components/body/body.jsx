@@ -2,7 +2,6 @@ import './body.css'
 import React from 'react';
 
 import {pkmnList} from '../../resources/pokedex'
-
 import Pokemon from './pokemon/pokemon'
 
 function Body() {
