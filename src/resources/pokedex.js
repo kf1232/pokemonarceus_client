@@ -1,0 +1,211 @@
+export const pkmnList = [
+    /* 127 Togepi */{
+        id:`127`,
+        name:`Togepi`,
+        tasks: [
+            {
+                id:`Number caught`,
+                s1:`1`,
+                s2:`2`,
+                s3:`4`,
+                s4:`10`,
+                s5:`15`,
+            },
+            {
+                id:`Number of small specimens you've caught`,
+                s1:`1`,
+                s2:`2`,
+                s3:`3`,
+                s4:`5`,
+                s5:`7`,
+            },
+            {
+                id:`Number you've caught without being spotted`,
+                s1:`1`,
+                s2:`2`,
+                s3:`4`,
+                s4:`6`,
+                s5:`10`,
+            },
+            {
+                id:`Number you've caught while they were sleeping`,
+                s1:`1`,
+                s2: null,
+                s3: null,
+                s4: null,
+                s5: null,
+            },
+            {
+                id:`Times you've seen it use Draining Kiss`,
+                s1:`1`,
+                s2:`3`,
+                s3:`6`,
+                s4:`12`,
+                s5:`25`,
+            },
+            {
+                id:`Times you've given it food`,
+                s1:`1`,
+                s2:`2`,
+                s3:`3`,
+                s4:`4`,
+                s5:`5`,
+            },
+            {
+                id:`Number you've evolved`,
+                s1:`1`,
+                s2:`2`,
+                s3:`3`,
+                s4: null,
+                s5: null,
+            },
+
+        ],
+    },
+    /* 010 Bidoof */{
+        id:`010`,
+        name:`Bidoof`,
+        tasks: [
+            {
+                id:`Number caught`,
+                s1:`1`,
+                s2:`3`,
+                s3:`6`,
+                s4:`12`,
+                s5:`25`,
+            },
+            {
+                id:`Number of heavy specimens you've caught`,
+                s1:`1`,
+                s2:`2`,
+                s3:`3`,
+                s4:`5`,
+                s5:`7`,
+            },
+            {
+                id:`Number defeated`,
+                s1:`1`,
+                s2:`2`,
+                s3:`4`,
+                s4:`10`,
+                s5:`15`,
+            },
+            {
+                id:`Number of different forms you've obtained`,
+                s1:`2`,
+                s2: null,
+                s3: null,
+                s4: null,
+                s5: null,
+            },
+            {
+                id:`Number you've evolved`,
+                s1:`1`,
+                s2: null,
+                s3: null,
+                s4: null,
+                s5: null,
+            },
+            {
+                id:`Investigated the Bidoof that bother the village`,
+                s1:`1`,
+                s2: null,
+                s3: null,
+                s4: null,
+                s5: null,
+            },
+            
+        ]
+    },
+    /* 168 Vulpix */{
+        id:`168`,
+        name:`Vulpix`,
+        tasks: [
+            {
+                id:`Number Caught`,
+                s1:`1`,
+                s2:`3`,
+                s3:`6`,
+                s4:`12`,
+                s5:`25`,
+            },
+            {
+                id:`Number you've caught wihtout being spotted`,
+                s1:`1`,
+                s2:`2`,
+                s3:`4`,
+                s4:`6`,
+                s5:`10`,
+            },
+            {
+                id:`Number you've caught while they were sleeping`,
+                s1:`1`,
+                s2:null,
+                s3:null,
+                s4:null,
+                s5:null,
+            },
+            {
+                id:`Number defeated`,
+                s1:`1`,
+                s2:`2`,
+                s3:`4`,
+                s4:`10`,
+                s5:`15`,
+            },
+            {
+                id:`Times you've seen it use Ember`,
+                s1:`1`,
+                s2:`3`,
+                s3:`6`,
+                s4:`12`,
+                s5:`25`,
+            },
+            {
+                id:`Times you've given it food`,
+                s1:`1`,
+                s2:`2`,
+                s3:`3`,
+                s4:`4`,
+                s5:`5`,
+            },
+            {
+                id:`Number of different forms you've obtained`,
+                s1:`2`,
+                s2:null,
+                s3:null,
+                s4:null,
+                s5:null,
+            },
+            {
+                id:`Number you've evolved`,
+                s1:`1`,
+                s2:`2`,
+                s3:`3`,
+                s4:null,
+                s5:null,
+            },
+            {
+                id:`Investigated about Vulpix from the Aloa region`,
+                s1:`1`,
+                s2:null,
+                s3:null,
+                s4:null,
+                s5:null,
+            },
+        ]
+    }
+]
+
+/* Graveyard
+
+{
+    id: "Words",
+    s1: null,
+    s2: null,
+    s3: null,
+    s4: null,
+    s5: null,
+},
+
+*/
