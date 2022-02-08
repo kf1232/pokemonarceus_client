@@ -5,6 +5,7 @@ import {pkmnList} from '../../resources/pokedex'
 import Pokemon from './pokemon/pokemon'
 
 function Body() {
+    
     return (
         <div class='body'>
             Body

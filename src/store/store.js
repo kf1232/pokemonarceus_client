@@ -1,6 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit'
 
 import itemReducer from './itemstate'
+import pokemonReducer from './pokemonstate'
 
 const saveToLocalStorage = (state) => {
     try {
@@ -25,6 +26,7 @@ const loadFromLocalStorage = () => {
 const store = configureStore({
     reducer: {
         item: itemReducer,
+        pokemon: pokemonReducer
     },
     preloadedState: loadFromLocalStorage()
 

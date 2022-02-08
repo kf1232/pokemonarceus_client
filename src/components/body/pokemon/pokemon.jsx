@@ -6,8 +6,8 @@ import Task from '../task/task.jsx'
 function Pokemon({ pokemon: { id, name, tasks } }){
     return(
         <table class='pokemon'>
-            <h2>{id} {name}</h2>
-            {tasks.map((obj)=><Task key={obj.id} task={obj}/>)}
+            <h2>{id} {name}  <button> press me </button> </h2>
+            {tasks.map((obj)=><Task key={obj.id} task={obj} pid={name}/>)}
         </table>
     )
 }

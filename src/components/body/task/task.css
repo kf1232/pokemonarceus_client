@@ -1,17 +1,15 @@
-button{
-
-}
-button:hover{
-    background-color:orange
-}
-button:focus{
-    background-color:green
+.input {
+    background-color: white;
 }
 
-button:active{
-    background-color:green
+.input:checked {
+    background-color: green;
 }
 
-.taskCounter{
-    width: 100%
+.input:active {
+    background-color: yellow;
+}
+
+.input[type='button']:focus{
+    background-color: red;
 }
